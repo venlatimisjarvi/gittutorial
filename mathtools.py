@@ -1,5 +1,3 @@
-
-
 def isPrime(n):
     '''Returns true if a number n is a prime number'''
     if n == 2 or n == 3:
@@ -10,3 +8,10 @@ def isPrime(n):
         if n % i == 0:
             return False
     return True
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
